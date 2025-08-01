@@ -8,7 +8,7 @@ export default function Home() {
 
   useEffect(() => {
     liff
-      .init({ liffId: "ここにあなたのLIFF IDを入力" })
+      .init({ liffId: "2007862333-bKPAvpj5" })
       .then(() => {
         if (!liff.isLoggedIn()) {
           liff.login();
